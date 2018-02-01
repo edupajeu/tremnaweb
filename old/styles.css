@@ -1,0 +1,49 @@
+*{
+	font-family: Arial;
+	color: #ffffff
+}
+
+.style-font{
+	font-weight: bold;
+	font-size: large;
+	letter-spacing: 1px;
+}
+
+.subtitle{
+	font-size: 40px;
+	text-align: center;
+
+}
+
+.caixa{
+	background-color: gray;
+
+}
+
+.barra_top{
+	width: 100%;
+	height: 30px;
+	background-color: #161616;
+	font-size: 30px;
+	word-spacing: 10px;
+}
+
+.barra_footer{
+	width: 1000px;
+	height: 400px;
+	background-color: #161616;
+	
+}
+
+.section{
+	display: inline-block;
+}
+
+.sobrepor{
+	position: relative;
+	z-index: 2;
+}
+
+.video{
+	position: fixed;
+}

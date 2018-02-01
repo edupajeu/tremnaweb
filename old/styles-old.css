@@ -1,0 +1,107 @@
+/* PRINCIPAL 
+************************/
+html, body{
+	height: 100%;
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif
+	color:#ffffff;
+}
+
+.section-background{
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 500px
+	}
+
+.section-container{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,65);
+}
+
+.section-title{
+	text-align: center;
+	font-size:30px;
+}
+
+.section-text{
+	padding:10; 
+	margin:0;
+	background-color: rgba(0,0,0,7);
+}
+
+/*HEADER
+***********************/
+.maia-header{
+	position: relative;
+}
+
+.header-video{
+	width: 100%
+}
+
+.navigation{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #3b3b3b;
+	z-index: 100;
+}
+
+.navigation-list{
+	padding: 0;
+}
+
+.navigation-list-item{
+	display: inline-block;
+	padding: 15px;
+}
+
+.nav-link{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.nav-linl:hover{
+	color: #0079d0
+}
+
+.logo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 90%;
+}
+
+/* O LUGAR
+***********************/
+.lugar{
+	
+	background-image: url(imagens/bar_interior.jpg);
+
+}
+
+
+
+
+/* NOSSOS DRINKS
+**********************/
+.drinks{
+	
+	background-image: url(imagens/cocktails.jpg);
+
+}
+
+
+
+
+
+/* FOOTER
+**********************/
